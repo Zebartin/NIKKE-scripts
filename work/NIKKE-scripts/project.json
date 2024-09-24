@@ -1,0 +1,9 @@
+{
+    "name": "NIKKE-scripts",
+    "main": "test.js",
+    "ignore": [
+        "build"
+    ],
+    "versionName": "2.0.0",
+    "versionCode": 200
+}

@@ -1,0 +1,174 @@
+{
+  "General": {
+    "Tasks": [
+      "Start",
+      "Restart",
+      "OutpostBulletin",
+      "OutpostWipeOut",
+      "OutpostDefense",
+      "Friends",
+      "RookieArena",
+      "SpecialArena",
+      "Shop",
+      "RecyclingShop",
+      "CashShopDaily",
+      "CashShopWeekly",
+      "CashShopMonthly",
+      "TribeTower",
+      "Advising"
+    ],
+    "ScreenshotInterval": 300,
+    "ServerUpdate": "04:00",
+    "RetryTime": 3,
+    "TagName": "",
+    "Mute": true,
+    "Magic": "v2rayNG",
+    "AfterAllDone": "goto_main"
+  },
+  "Start": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "Restart": {
+    "Scheduler": {
+      "Enable": false,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "OutpostBulletin": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "OutpostWipeOut": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "OutpostDefense": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "Friends": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "RookieArena": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    },
+    "RookieArena": {
+      "Target": 0
+    }
+  },
+  "SpecialArena": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "Shop": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    },
+    "GeneralShop": {
+      "BuyCoreDust": true,
+      "BuyBondItem": false
+    },
+    "ArenaShop": {
+      "ManualCount": 3
+    }
+  },
+  "RecyclingShop": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    },
+    "RecyclingShop": {
+      "ShoppingList": [
+        "珠宝",
+        "芯尘盒",
+        "成长套组",
+        "好感券-通用",
+        "好感券-极乐净土",
+        "好感券-米西利斯",
+        "好感券-泰特拉",
+        "好感券-朝圣者",
+        "好感券-反常",
+        "芯尘盒",
+        "信用点盒"
+      ]
+    }
+  },
+  "CashShopDaily": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "CashShopWeekly": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "CashShopMonthly": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "TribeTower": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    }
+  },
+  "Advising": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    },
+    "Advising": {
+      "AnswerPath": "./nikke.json",
+      "Limit": 0
+    }
+  },
+  "SimulationRoom": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    },
+    "SimulationRoom": {
+      "MaxPass": 0,
+      "MaxSsr": 0,
+      "TryDiffArea": 8,
+      "PreferredBuffs": []
+    }
+  },
+  "DailyMission": {
+    "Scheduler": {
+      "Enable": true,
+      "NextRun": "2023-12-01 00:00:00"
+    },
+    "DailyMission": {
+      "MissionPass": true,
+      "Liberation": true,
+      "SocialPointRecruit": true
+    },
+    "EquipmentEnhance": {
+      "Target": "",
+      "Slot": ""
+    }
+  }
+}
